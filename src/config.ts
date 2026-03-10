@@ -7,7 +7,7 @@ export const SITE = {
     ogImage: "favicon.png",
     lightAndDarkMode: false,
     postPerIndex: 4,
-    postPerPage: 4,
+    postPerPage: 12,
     scheduledPostMargin: 15 * 60 * 1000,
     showArchives: false,
     showBackButton: true,
