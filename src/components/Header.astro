@@ -109,6 +109,14 @@ const isActive = (path: string) => {
                     </li>
                     <li class="col-span-2 md:text-nowrap">
                         <a
+                            href="/achievements"
+                            class:list={{ "active-nav": isActive("/achievements") }}
+                        >
+                            [ Achievements ]
+                        </a>
+                    </li>
+                    <li class="col-span-2 md:text-nowrap">
+                        <a
                             href="/sponsors"
                             class:list={{ "active-nav": isActive("/sponsors") }}
                         >

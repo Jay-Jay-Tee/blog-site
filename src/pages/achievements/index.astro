@@ -1,0 +1,80 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+---
+
+<Layout title="Achievements">
+    <Header />
+    <main id="main-content">
+        <div class="max-w-[900px] mx-auto py-8 px-8">
+            <h1
+                class="m-0 mb-8 text-4xl font-semibold text-heading1 text-center"
+            >
+                Achievements
+            </h1>
+
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-1">
+                        <a
+                            href="https://ctf-codingclub.iitdh.ac.in/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-heading2 hover:text-accent transition-colors"
+                        >
+                            Won 2nd place at Veni Vidi Vici 3.0
+                        </a>
+                    </h3>
+                    <p class="text-foreground/70 text-sm mb-2">January 2026</p>
+                    <p class="text-foreground">
+                        Held as part of IIT Dharwad's Parsec 6.0
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-1">
+                        <a
+                            href="https://nyu-llm-ctf.github.io/csaw_llmac.html#leaderboard"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-heading2 hover:text-accent transition-colors"
+                        >
+                            Won 3rd place in CSAW'25 LLM CTF Attack Challenge
+                        </a>
+                    </h3>
+                    <p class="text-foreground/70 text-sm">November 2025</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-1">
+                        <a
+                            href="https://github.com/TrustworthyComputing/csaw_esc_2025/blob/main/finalists.md"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-heading2 hover:text-accent transition-colors"
+                        >
+                            Finalists in CSAW Embedded Security Challenge 2025
+                        </a>
+                    </h3>
+                    <p class="text-foreground/70 text-sm">October 2025</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-1">
+                        <a
+                            href="https://mic.gov.in/pentathon2025/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-heading2 hover:text-accent transition-colors"
+                        >
+                            Finalists in NCIIPC-AICTE PENTATHON 2025
+                        </a>
+                    </h3>
+                    <p class="text-foreground/70 text-sm">April 2025</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <Footer />
+</Layout>
